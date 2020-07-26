@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- source : https://www.youtube.com/watch?v=4p3YDQLJmSs -->
+    <title>Realistic Cloud Banner Parallax Effects</title>
+</head>
+<body>
+    <div class="banner">
+        <h2 id="text">Title</h2>
+        <div class="clouds">
+            <img src="clouds/cloud1.png" style="--i:1;">
+            <img src="clouds/cloud2.png" style="--i:2;">
+            <img src="clouds/cloud3.png" style="--i:3;">
+            <img src="clouds/cloud4.png" style="--i:4;">
+            <img src="clouds/cloud5.png" style="--i:5;">
+            <img src="clouds/cloud1.png" style="--i:10;">
+            <img src="clouds/cloud2.png" style="--i:9;">
+            <img src="clouds/cloud3.png" style="--i:8;">
+            <img src="clouds/cloud4.png" style="--i:7;">
+            <img src="clouds/cloud5.png" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Realistic Cloud Banner Parallax Effects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente blanditiis ducimus, consectetur officia magnam unde perferendis rerum, doloremque modi officiis sint commodi dolorem consequatur vitae. Debitis cum eligendi pariatur quos consequuntur nulla dolorem fuga! Aperiam facere natus odit sit sed inventore nesciunt, consequuntur ducimus quos error repellat beatae illo nam reiciendis repellendus commodi, eius similique accusamus. Beatae cumque alias fugit ipsam quaerat natus quisquam temporibus incidunt autem quas enim vitae magni eligendi doloribus odio hic, dicta voluptatibus quidem laudantium? Adipisci eius nesciunt iusto ratione provident doloremque, cupiditate tempore id est enim delectus ipsum eum incidunt praesentium dolores quia temporibus, commodi aspernatur aliquam distinctio voluptatibus animi explicabo? Tenetur similique veritatis, voluptates molestiae commodi quas ipsum enim aspernatur repellendus nulla nemo ipsam quis aut eligendi nobis quidem eveniet, consequatur, id dolor est? Labore minima nostrum, cum voluptatem quisquam saepe alias ut dolorem ea vitae? Quos, quidem ullam voluptatum corporis voluptas exercitationem excepturi cum delectus cupiditate ad commodi, nostrum, facilis dignissimos ex ea placeat. Nesciunt quisquam, dolor dicta aspernatur officia dolorem error, quaerat at molestiae iste esse reiciendis? Officia debitis nam ullam animi numquam sunt voluptatem illum. Similique deserunt minima aperiam amet facere laudantium sint quidem minus quis dignissimos veritatis nam, fuga asperiores, enim fugit rerum necessitatibus nulla explicabo ipsam incidunt perspiciatis. Debitis eius, error, autem soluta atque impedit voluptas asperiores ad dolor enim fugiat minus! Optio eaque similique vero ea enim repellat ullam atque, alias doloribus omnis corrupti qui, adipisci dolor iste obcaecati unde excepturi ad, mollitia perspiciatis eius numquam explicabo vel libero error!<br> Rerum, illo sequi, sed distinctio harum ducimus possimus nulla unde ullam aperiam voluptatem provident corporis modi laborum earum ipsam dolorem. Repellendus veniam explicabo mollitia tenetur dolor corporis consectetur aut ducimus architecto dignissimos unde neque quis quam, modi eaque beatae quasi voluptas esse. Eius sed assumenda id atque aut asperiores, fugit consequatur neque temporibus sit culpa quas itaque autem dignissimos molestias dicta numquam corrupti odit, vitae voluptatem repellat! Distinctio dolorem delectus velit id laboriosam eos libero nostrum qui, placeat architecto vitae vel, ullam excepturi quis, porro ad corrupti labore pariatur suscipit odit sint enim. Nam facere reiciendis, facilis quibusdam voluptatibus quos corrupti expedita rerum voluptates asperiores amet ea temporibus alias dolorem repellat quidem ut architecto tempore. Tenetur dolor ad quam consectetur, illum soluta repellendus sequi iste voluptate impedit praesentium sapiente nihil adipisci id eius inventore, earum eveniet quas dolorem ipsum nulla animi eligendi odit possimus. Sapiente, tenetur quos molestiae cum similique ullam soluta est et in nemo nobis, asperiores maxime dolorem eligendi numquam, aspernatur dolor? Possimus, illo fuga deserunt aliquam consequuntur obcaecati dignissimos minus sint. Odit enim ipsum saepe adipisci aliquid eligendi totam maxime quaerat deleniti assumenda odio impedit, labore quidem obcaecati ab necessitatibus dolor temporibus voluptate ipsam non harum. Quisquam ipsum odio saepe aliquid eum eos quasi, rem at perspiciatis reiciendis? Fugiat et commodi suscipit vitae cupiditate vel temporibus. Ullam error magni aliquam suscipit a ab nisi sint, veritatis cumque exercitationem illo consequuntur soluta cum libero unde quibusdam earum ipsum repellat saepe voluptatum, harum nostrum sit incidunt.</p>
+    </section>
+    <script type="text/javascript">
+        let text = document.getElementById('text');
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px';
+        })
+    </script>
+</body>
+</html>
